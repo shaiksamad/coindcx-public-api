@@ -1,0 +1,59 @@
+CoinDCX
+    -modules
+        -candle.py
+        -dispatcher.py
+        -errors.py
+        -markets.py
+        -order.py
+        -pubic.py
+        -ticker.py
+        -trades.py
+        -user.py
+        -utils.py
+    -coindcx.py
+
+--------------------------------------------------
+
+coinDCX
+    public
+        ticker
+        markets.
+        markets_details
+        trades
+        order_book
+        candles
+    user
+        balances
+        info
+    order
+        new_order
+        create_multiple_order,
+        order_status
+        multiple_order_status
+        active_orders
+        account_trade_history
+        active_orders_count
+        cancel_all
+        cancel_multiple_by_ids
+        cancel
+        edit_price
+    lend_order
+        fetch_order
+        lend
+        settle
+    margin_order
+        place_order
+        cancel_order
+        exit,
+        edit_target
+        edit_price_of_target_order
+        edit_sl_price
+        edit_sl_price_of_trailing_stop_loss
+        add_margin
+        remove_margin
+        fetch_margin
+        query_order
+    pagination
+        parameters
+
+
